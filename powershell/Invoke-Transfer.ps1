@@ -27,7 +27,7 @@ PS > Invoke-Transfer -File SharpHound.exe
 PS > Invoke-Command -ComputerName <Server> -FilePath .\Mod_SharpHound.exe.ps1
         After ran, this will now create a file in the $home directory of the server machine,
         in this case, Mod_SharpHound.exe is located on <server>.
-PS > Invoke-Command -ComputerName <Server> -ScriptBlock{.\Mod_SharpHound.exe.ps1}
+PS > Invoke-Command -ComputerName <Server> -ScriptBlock{.\Mod_SharpHound.exe}
         This will run the application on the server.
 
 .LINK
